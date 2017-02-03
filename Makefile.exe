@@ -1,0 +1,12 @@
+make -f MarketplaceServer
+
+JCC = javac
+ MarketplaceServer.class MarrketplaceClient.class
+ 
+MarketplaceServer.class: MarketplaceServer.java
+$() MarketplaceServer.java
+MarketplaceClient.class: Client.java
+$(JCC) MarketplaceClient.java
+
+clean: 
+rm -rf *.Marketplace
