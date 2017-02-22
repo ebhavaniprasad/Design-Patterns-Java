@@ -22,6 +22,7 @@ public class MarketplaceDispatcher
 		   }
 }
 
+// Ryan: Please do not embed classes like this in your code - it is a bad practice.
  class CustomerView
    {
 	   public void display()

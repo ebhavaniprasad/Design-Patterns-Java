@@ -1,6 +1,7 @@
 
 import java.rmi.RemoteException;
 
+// Ryan: Please include usefull comments in each file.
 public class MarketplaceServerController
 {
 	 private MarketplaceFrontClient client;

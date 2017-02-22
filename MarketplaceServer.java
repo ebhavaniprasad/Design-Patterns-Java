@@ -4,8 +4,11 @@ import java.rmi.Naming;
 import java.rmi.server.UnicastRemoteObject;
 import java.rmi.RMISecurityManager;
 
+// Ryan: Please include usefull comments in each file.
 public class MarketplaceServer extends UnicastRemoteObject implements RmiInterface // Remote Server class implementing the RMI interface
 {
+	// Ryan: Should these methods really go in the Server class - or should they go in classes
+	// related to their intended functionality?
 	String password;
 	public MarketplaceServer() throws RemoteException // Constructor throwing RemoteException
 	{

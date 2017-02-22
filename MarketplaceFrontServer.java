@@ -5,8 +5,12 @@ import java.rmi.registry.*;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
+// Ryan: Please include usefull comments in each file.
 public class MarketplaceFrontServer extends UnicastRemoteObject implements MarketplaceFrontInterface
 {
+	// Ryan: A better approach would be to isolate the RMI components from the Application
+	// Logic.
+	
 	//public int customerId=2018;
 	//public String discardItem;
 	public String newAdmin="John";

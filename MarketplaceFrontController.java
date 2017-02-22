@@ -1,5 +1,5 @@
 
-
+// Ryan: This is not an implementation of the Front Controller pattern.
 public class MarketplaceFrontController
 {	
 		   public static void main(String[] args) throws Exception
