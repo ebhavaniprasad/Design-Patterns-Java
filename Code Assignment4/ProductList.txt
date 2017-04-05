@@ -1,0 +1,3 @@
+Shoes:Puma,Nike,Adidas
+Jacket:J1,J2,J3
+Phoes:Apple 7,Moto G4,HtC 620
